@@ -1,0 +1,70 @@
+body
+{
+  background-color: powderblue;
+}
+
+.name 
+{
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 20px;  
+  font-family: Arial Black;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #003366;
+  text-shadow: 2px 2px white;
+  background-color: azure;
+}
+dd
+{
+  font-weight: bold;
+}
+
+.space{
+    font-weight: bold;
+    font-family: Arial;
+    text-shadow: 2px 2px white;
+    text-indent: 2em;
+}
+div.experience{
+    float:left;
+    
+    margin-left :150px;
+
+    
+}
+div.Skills{
+    float:right;
+    
+    margin-right:300px;
+}
+div.Working{
+    clear: left;
+    margin-top:250px;
+    margin-left :150px;
+
+}
+
+.footer{
+  background:azure;
+  padding: 25px;
+  text-align: center;
+  margin-top: 550px;
+  clear: left;
+  
+}
+.text{
+  font-weight:bold;
+  font-family : 微軟正黑體;
+  text-align:center;
+}
+@media(max-width:600px)
+{
+  nav ul li{
+    width:100%;
+  }
+  .dropdown-menu{
+    width: 100%;
+  }
+}
