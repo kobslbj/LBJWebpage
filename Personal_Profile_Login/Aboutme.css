@@ -1,0 +1,189 @@
+body
+{
+  background-color: powderblue;
+}
+
+.name 
+{
+  display:flex;
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 20px;  
+  font-family: Arial Black;
+  font-weight: bold;
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+  color: #003366;
+  text-shadow: 2px 2px white;
+  background-color: azure;
+  clear: both;
+}
+dd
+{
+  font-weight: bold;
+
+}
+.img1
+{
+  margin-top: 10px;
+  margin-left:20PX;
+  margin-right:15px;
+  margin-bottom:15px;
+  float:left;
+  border: 10px solid rgba(42, 35, 35, 0.148);
+}
+
+.introduce
+{
+  font-family: 微軟正黑體;
+  font-weight: bold;
+  color: black;
+  float:left;
+  margin-left: 50px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+.homework:hover .dropdown-menu
+{
+  display:block;
+}
+.dropdown-menu
+{
+  display:none;
+  position:absolute;
+  z-index: 1;
+  width: 25%;
+  overflow: hidden;
+  background-color: #333;
+
+}
+li {
+  float:left;
+  width: 25%;
+}
+li a {
+  display: block;
+  color:white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+  font: size 30px;
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #003366;
+}
+div.gallery {
+  margin: 5px;
+  
+  float:right;
+  margin-top: 10px;
+  width: 250px;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  font-weight:bold;
+  font-family : 微軟正黑體;
+}
+.footer{
+  background:azure;
+  padding: 25px;
+  text-align: center;
+  margin-top: 550px;
+  clear: left;
+  
+}
+.text{
+  font-weight:bold;
+  font-family : 微軟正黑體;
+  text-align:center;
+}
+@media(max-width:600px)
+{
+  nav ul li{
+    width:100%;
+  }
+  .dropdown-menu{
+    width: 100%;
+  }
+}
+
+#one{
+  position: relative;
+  float:right;
+  top: 10%;
+  width: 20em;
+  border-radius: 15px;
+  
+
+}
+#one li{
+  width: 50%;
+  background-color: powderblue;
+  
+}
+#one li a{
+  color: #353940;
+  border-radius: 15px;
+  font-weight: bold;
+}
+#one li a:hover:not(.active) {
+  background-color: #E4EAF2;
+}
+
+
+
